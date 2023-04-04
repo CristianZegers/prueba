@@ -1,26 +1,24 @@
-# Flujograma de Proceso de Ventas
-
-## Descripción
-
-Este flujograma representa el proceso de ventas de la empresa TFP para la implementación de soluciones de infraestructura de medios de pago con inteligencia artificial. 
-
-## Pasos del proceso
-
-1. Ejecutivo comercial (EC) recibe al prospecto en el CRM, presenta a TFP y realiza un levantamiento de muy alto nivel.
-2. EC sube al CRM la información levantada y agenda una nueva reunión en donde invita a Solution Consultant.
-3. SC y EC participan de una segunda reunión, donde identifican con mayor claridad la necesidad del cliente y discuten eventuales soluciones con el cliente.
-4. EC actualiza la oportunidad en CRM y SC prepara un detalle técnico de la necesidad y una posible solución.
-5. Se valida internamente con el equipo de Operaciones y Tecnología la factibilidad de la eventual solución.
-6. Se agenda nuevamente una reunión con el prospecto para proponer una solución a su necesidad.
-7. Se prepara una presentación especial para el cliente. Se pide apoyo a MKT si fuera necesario.
-8. Se realiza la reunión. Si el cliente está de acuerdo con la alternativa planteada, EC se compromete a elaborar una propuesta comercial.
-9. SC y EC generan una reunión interna con O&T para solicitar el costo de la solución propuesta. O&T se compromete a entregar un costo en X plazo.
-10. Si la solución es nueva, se reciben los costos y se valida con Finanzas el modelo de negocio y definen un Pricing.
-11. EC agenda reunión con Prospecto para presentar propuesta económica de solución presentada.
-12. Seguimiento
-13. Estrategia de Cierre 
-14. Firma Contrato
-15. Delivery - Implementación y Onboarding de Operaciones.
-
-## Diagrama
-![Flujograma de Proceso de Ventas](https://i.imgur.com/2zr5xl5.png)
+graph LR
+A[Ejecutivo Comercial (EC)] -- Presenta a --> B[TFP]
+A -- Realiza levantamiento de muy alto nivel --> B
+B -- Invita a --> C[Solution Consultant (SC)]
+A -- Actualiza información --> D((CRM))
+D -- Agenda reunión con SC --> C
+C -- Identifican necesidades --> E[Necesidades del cliente]
+C -- Discuten soluciones --> E
+C -- Prepara detalle técnico --> F[Detalle técnico de la necesidad y posible solución]
+F -- Se valida internamente --> G[Equipo de Operaciones y Tecnología]
+G -- Factibilidad de la solución --> F
+C -- Agenda reunión con prospecto --> E
+E -- Presenta solución --> H[Propuesta de solución]
+H -- Prepara presentación --> I[Presentación especial]
+I -- Solicita apoyo --> J[Marketing (MKT)]
+J -- Brinda apoyo --> I
+E -- Acuerdo con la solución --> K[Elaborar propuesta comercial]
+K -- Genera reunión interna --> L[Operaciones y Tecnología (O&T)]
+L -- Entrega costo en X plazo --> K
+F -- Solución nueva --> M[Valida con Finanzas el modelo de negocio y definen un Pricing]
+K -- Agenda reunión con prospecto --> N[Presentar propuesta económica]
+N -- Estrategia de cierre --> O[Estrategia de cierre]
+O -- Firma contrato --> P[Firma del contrato]
+P -- Implementación y onboarding --> Q[Delivery - Implementación y Onboarding de Operaciones]
