@@ -23,3 +23,4 @@ Este flujograma representa el proceso de ventas de la empresa TFP para la implem
 15. Delivery - Implementación y Onboarding de Operaciones.
 
 ## Diagrama
+![Flujograma de Proceso de Ventas](https://i.imgur.com/2zr5xl5.png)
