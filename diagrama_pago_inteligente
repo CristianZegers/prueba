@@ -1,1 +1,30 @@
-<mxfile host="app.diagrams.net" modified="2023-04-06T14:45:00Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="3i8U6WjU6en03k64jrRO" version="14.6.12" type="device"><diagram id="Pf8NnL9cNzCQ2uVHjI8t" name="Diagrama de flujo"><mxGraphModel dx="1428" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0"><root><mxCell id="0"/><mxCell id="1" parent="0"/><mxCell id="JL_iI5ue5jK0pU8NQtKj-6" value="Ejecutivo Comercial" style="swimlane;startSize=20;horizontal=0;fillColor=#f9d9bb;" parent="1" vertex="1"><mxGeometry x="20" y="120" width="100" height="60" as="geometry"/></mxCell><mxCell id="1zAFGk-fo81sHHgY89yV-6" value="Prospecto" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fffae2;strokeColor=#bfae76;dashPattern=10 10;" parent="1" vertex="1"><mxGeometry x="180" y="120" width="80" height="40" as="geometry"/></mxCell><mxCell id="w0tyREo54vKi8f19Hrm9-6" value="TFP" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1f5fe;strokeColor=#90caf9;dashPattern=10 10;" parent="1" vertex="1"><mxGeometry x="350" y="120" width="80" height="40" as="geometry"/></mxCell><mxCell id="G5fzObUMwpu0oZf14iSd-6" value="Solution Consultant" style="swimlane;startSize=20;horizontal=0;fillColor=#f9d9bb;" parent="1" vertex="1"><mxGeometry x="540" y="120" width="140" height="60" as="geometry"/></mxCell><mxCell id="9ghHea04QIvQ3TYLWV05-6" value="Detalle técnico de la necesidad y posible solución" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1f5fe;strokeColor=#90caf9;dashPattern=10 10;" parent="1" vertex="1"><mxGeometry x="350" y="250" width="250" height="40"
+<mxGraphModel>
+  <root>
+    <mxCell id="0"/>
+    <mxCell id="1" parent="0"/>
+    <mxCell id="2" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+      <mxGeometry x="230" y="50" width="100" height="50" as="geometry"/>
+    </mxCell>
+    <mxCell id="3" value="Ejecutivo Comercial (EC) recibe al prospecto en el CRM, presenta a TFP y realiza un levantamiento de muy alto nivel." style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=none;strokeWidth=2;" edge="1" parent="1" source="2" target="4">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="5" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+      <mxGeometry x="50" y="150" width="100" height="50" as="geometry"/>
+    </mxCell>
+    <mxCell id="6" value="EC sube al CRM la información levantada y agenda una nueva reunión en donde invita a Solution Consultant." style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=none;strokeWidth=2;" edge="1" parent="1" source="5" target="7">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="8" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+      <mxGeometry x="230" y="150" width="100" height="50" as="geometry"/>
+    </mxCell>
+    <mxCell id="9" value="SC y EC participan de una segunda reunión, donde identifican con mayor claridad la necesidad del cliente y discuten eventuales soluciones con el cliente." style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=none;strokeWidth=2;" edge="1" parent="1" source="8" target="10">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="11" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+      <mxGeometry x="410" y="150" width="100" height="50" as="geometry"/>
+    </mxCell>
+    <mxCell id="12" value="EC actualiza la oportunidad en CRM y SC prepara un detalle técnico de la necesidad y una posible solución." style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=none;strokeWidth=2;" edge="1" parent="1" source="11" target="13">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="14" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+      <mxGeometry x
